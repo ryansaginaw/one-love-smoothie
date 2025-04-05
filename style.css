@@ -1,0 +1,51 @@
+
+body {
+  margin: 0;
+  background: linear-gradient(to bottom right, #2c3e50, #1a1a1a);
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+#game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+#title-screen {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#title-screen h1 {
+  font-family: 'Impact', sans-serif;
+  color: #f4d03f;
+  font-size: 3em;
+  letter-spacing: 2px;
+}
+#order-box, #smoothie-builder, #progress-bar-container, #tip-box, #audio-controls, #mini-game-section, #grilled-cheese-menu {
+  background: rgba(51, 51, 51, 0.9);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+  width: 80%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+.section-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #f4d03f;
+}
+.progress-bar {
+  background-color: #555;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 20px;
+}
+.progress-fill {
+  background-color: #f4d03f;
+  width: 40%;
+  height: 100%;
+  transition: width 0.3s ease;
+}
